@@ -1,0 +1,638 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <!-- Bs5 link  -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+  <!-- Style Sheet  -->
+  <link rel="stylesheet" href="./style.css">
+
+  <!-- Google Font  -->
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Font Awsome  -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+
+  <!-- Aos Animation   -->
+   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+  <!-- Navbar Here  -->
+  <nav class="navbar navbar-expand-lg shadow-sm sticky-top">
+    <div class="container">
+      <a class="navbar-brand" href="#"><i class="fa-solid fa-school me-2" style="color: orangered;"></i>University</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-auto">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Service</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Contact</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+
+          <button class="btn rounded-pill me-2" type="submit">Sign Up</button>
+          <a href="#form">
+
+            <button class="btn rounded-pill" type="submit">Login</button>
+          </a>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section  -->
+  <section class="hero-section" id="home">
+    <video class="bg-video" autoplay muted loop playsinline>
+      <source src="./1477606_Education_People_3840x2160.mp4" type="video/mp4">
+    </video>
+
+    <div class="overlay"></div>
+    <div class="container">
+      <div class="row align-items-center text-center text-lg-start">
+        <div class="col-lg-6 col-md-12 col-12 mb-4">
+          <div class="hero-contact">
+            <div class="contact-simple" data-aos="fade-right">
+              <h1 class="display-4 fw-bold">Welcome to Our University</h1>
+              <p class="mb-4">
+                For admissions, programs, scholarships, and general queries,
+                feel free to reach out to our support team anytime. Have questions about our courses, scholarships.
+              </p>
+              <button class="btn rounded-pill" type="submit">Get In Touch</button>
+            </div>
+          </div>
+
+        </div>
+        <div class="col-lg-6 col-md-12 col-12 ">
+          <form action="" class="p-3" id="form"  data-aos="fade-right">
+            <div class="section-title mb-4 text-center text-white">
+              <h3 class="fw-bold">Login Form</h3>
+            </div>
+            <div class="form-group mb-3">
+              <label for="name" class="mb-3">Name</label>
+              <input type="text" class="form-control">
+            </div>
+            <div class="form-group mb-4">
+              <label for="name" class="mb-3">Email</label>
+              <input type="email" class="form-control">
+            </div>
+            <button class="btn rounded-pill " type="submit">Login</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Card Section  -->
+  <section class="card-section">
+    <div class="container">
+      <div class="section-title mb-5">
+        <h6>Success For Category</h6>
+        <h2 class="display-4 fw-bold">We Success for category <br>creative students</h2>
+      </div>
+      <div class="row align-items-center">
+
+        <!-- Card 1 -->
+        <div class="col-lg-4 col-md-6 col-12 mb-3">
+          <div class="category-card p-4" data-aos="fade-right">
+            <div class="icon">
+              <i class="fa-solid fa-lightbulb me-2 mb-3"></i>
+              <h4>Creative Ideas</h4>
+            </div>
+            <div class="text">
+              <p>Our students generate innovative ideas that make a real difference in projects and competitions.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="col-lg-4 col-md-6 col-12 mb-3 ">
+          <div class="category-card p-4" data-aos="fade-right">
+            <div class="icon">
+              <i class="fa-solid fa-code me-2 mb-3"></i>
+              <h4>Technical Skills</h4>
+            </div>
+            <div class="text">
+              <p>Mastering coding and technical expertise ensures students are ready for modern challenges.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="col-lg-4 col-md-6 col-12 mb-3">
+          <div class="category-card p-4" data-aos="fade-right">
+            <div class="icon">
+              <i class="fa-solid fa-users me-2 mb-3"></i>
+              <h4>Team Collaboration</h4>
+            </div>
+            <div class="text">
+              <p>Students excel in teamwork, sharing ideas, and working together to achieve success.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 4 -->
+        <div class="col-lg-4 col-md-6 col-12 mb-3 ">
+          <div class="category-card p-4" data-aos="fade-right">
+            <div class="icon">
+              <i class="fa-solid fa-award me-2 mb-3"></i>
+              <h4>Achievements</h4>
+            </div>
+            <div class="text">
+              <p>Our creative students have won numerous awards and recognition for their outstanding work.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 5 -->
+        <div class="col-lg-4 col-md-6 col-12 mb-3">
+          <div class="category-card p-4" data-aos="fade-right">
+            <div class="icon">
+              <i class="fa-solid fa-chalkboard-teacher me-2 mb-3"></i>
+              <h4>Expert Guidance</h4>
+            </div>
+            <div class="text">
+              <p>Mentors and teachers provide valuable guidance to help students excel in every field.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 6 -->
+        <div class="col-lg-4 col-md-6 col-12 mb-3">
+          <div class="category-card p-4" data-aos="fade-right">
+            <div class="icon">
+              <i class="fa-solid fa-rocket me-2 mb-3"></i>
+              <h4>Fast Progress</h4>
+            </div>
+            <div class="text">
+              <p>Students achieve rapid progress by combining creativity, skills, and determination.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section  -->
+  <section class="about py-5">
+    <div class="container">
+      <div class="row text-lg-start text-center">
+        <div class="col-lg-6 col-md-12 col-12  mb-5">
+          <div class="about-image text-center"  data-aos="flip-left">
+            <img src="./images/about-pic.png" alt="Image" class="img-fluid">
+          </div>
+          
+        </div>
+
+        <div class="col-lg-6 col-md-12 col-12">
+          <div class="about-contact"  data-aos="flip-left">
+            <h5>About University Students</h5>
+            <h3 class="display-6 fw-bold mb-3">Complete About Students University Education</h3>
+            <p style="color: #333; line-height: 1.7;" class="mb-4">
+              Join our vibrant community of motivated learners and experience a supportive, innovative environment
+              that prepares you for a bright future. With access to expert faculty, modern facilities, and diverse
+            </p>
+            
+            <div class="progress mb-4"  data-aos="flip-left">
+  <div class="progress-bar" role="progressbar" style="width: 90%;" aria-valuenow="25" aria-valuemin="0" 
+  
+  aria-valuemax="100">90% Creativity</div>
+</div>
+            <div class="progress mb-4"  data-aos="flip-left">
+  <div class="progress-bar" role="progressbar" style="width: 79%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">79% Coding Skills</div>
+</div>
+            <div class="progress"  data-aos="flip-left">
+  <div class="progress-bar" role="progressbar" style="width: 86%; " aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">86% Teamwork</div>
+</div>
+<div class="btn mt-4">
+  <button class="p-2 rounded-pill px-3">Learn More</button>
+</div>
+             
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Courses Section  -->
+<!-- Courses Section -->
+<section class="courses-section py-5">
+  <div class="container">
+    <div class="section-title text-center mb-5">
+      <h6 style="color: orangered;">Our Courses</h6>
+      <h2 class="fw-bold display-4">Explore Our Popular Courses</h2>
+    </div>
+    
+    <div class="row">
+
+      <!-- Course Card 1 -->
+      <div class="col-lg-4 col-md-6 col-12 mb-4">
+        <div class="course-card shadow-sm rounded overflow-hidden" data-aos="flip-down">
+          <img src="./images/computer-science.jpg" alt="Course 1" class="img-fluid">
+          <div class="p-3">
+            <h5 class="fw-bold mb-2">Computer Science</h5>
+            <p>Learn programming, algorithms, and software development with hands-on projects.</p>
+          </div>
+        </div>
+      </div>
+ 
+
+      <!-- Course Card 2 -->
+      <div class="col-lg-4 col-md-6 col-12 mb-4">
+        <div class="course-card shadow-sm rounded overflow-hidden" data-aos="flip-down">
+          <img src="./images/business.jpg" alt="Course 2" class="img-fluid">
+          <div class="p-3">
+            <h5 class="fw-bold mb-2">Business Management</h5>
+            <p>Master leadership, strategy, and entrepreneurship skills for the modern business world.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Course Card 3 -->
+      <div class="col-lg-4 col-md-6 col-12 mb-4">
+        <div class="course-card shadow-sm rounded overflow-hidden" data-aos="flip-down">
+          <img src="./images/grapic.jpg" alt="Course 3" class="img-fluid">
+          <div class="p-3">
+            <h5 class="fw-bold mb-2">Graphic Design</h5>
+            <p>Explore creativity, digital tools, and design thinking to produce stunning visuals.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Course Card 4 -->
+      <div class="col-lg-4 col-md-6 col-12 mb-4">
+        <div class="course-card shadow-sm rounded overflow-hidden" data-aos="flip-down">
+          <img src="./images/data-science.jpg" alt="Course 4" class="img-fluid">
+          <div class="p-3">
+            <h5 class="fw-bold mb-2">Data Science</h5>
+            <p>Analyze data, create models, and gain insights with Python, R, and machine learning.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Course Card 5 -->
+      <div class="col-lg-4 col-md-6 col-12 mb-4">
+        <div class="course-card shadow-sm rounded overflow-hidden" data-aos="flip-down">
+          <img src="./images/seo.jpg" alt="Course 5" class="img-fluid">
+          <div class="p-3">
+            <h5 class="fw-bold mb-2">Marketing & SEO</h5>
+            <p>Learn digital marketing, SEO, and social media strategies to grow any business.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Course Card 6 -->
+      <div class="col-lg-4 col-md-6 col-12 mb-4">
+        <div class="course-card shadow-sm rounded overflow-hidden" data-aos="flip-down">
+          <img src="./images/photo.avif" alt="Course 6" class="img-fluid">
+          <div class="p-3">
+            <h5 class="fw-bold mb-2">Photography</h5>
+            <p>Master camera skills, lighting, and editing to capture stunning professional images.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<section class="students-section py-5">
+  <div class="container">
+    <div class="section-title text-center mb-5">
+      <h6 style="color: orangered;">Our Students</h6>
+      <h2 class="fw-bold display-4">What Our Students Say</h2>
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-lg-8">
+        <div id="studentCarousel" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner text-center">
+            
+            <!-- Slide 1 -->
+            <div class="carousel-item active">
+             <div class="student-card p-4" data-aos="zoom-in-down">
+              <div>
+                <img src="./images/female-student.jpg" alt="Student Pic" class="img-fluid rounded-circle mb-3">
+                <h4>Sarah Khan</h4>
+                <p>"The courses are very interactive and helped me improve my skills tremendously."</p>
+              </div>
+             </div>
+            </div>
+
+            <!-- Slide 2 -->
+            <div class="carousel-item">
+             <div class="student-card p-4">
+              <div>
+                <img src="./images/male-student.jpg" alt="Student Pic" class="img-fluid rounded-circle mb-3">
+                <h4>Ali Raza</h4>
+                <p>"I loved the mentorship and guidance from the faculty; it was life-changing."</p>
+              </div>
+             </div>
+            </div>
+            
+            <!-- Slide 3 -->
+            <div class="carousel-item">
+             <div class="student-card p-4">
+              <div>
+                <img src="./images/female-student-2.jpg" alt="Student Pic" class="img-fluid rounded-circle mb-3">
+                <h4>Maria Ahmed</h4>
+                <p>"The community is supportive, and I made so many valuable connections."</p>
+              </div>
+             </div>
+            </div>
+
+            <!-- Slide 4 -->
+            <div class="carousel-item">
+             <div class="student-card p-4">
+              <div>
+                <img src="./images/male-student-1.jpg" alt="Student Pic" class="img-fluid rounded-circle mb-3">
+                <h4>Hamza Ali</h4>
+                <p>"I gained practical skills that helped me land my first job quickly."</p>
+              </div>
+             </div>
+            </div>
+
+            <!-- Slide 5 -->
+            <div class="carousel-item">
+             <div class="student-card p-4">
+              <div>
+                <img src="./images/female-student-3.jpg" alt="Student Pic" class="img-fluid rounded-circle mb-3">
+                <h4>Fatima Noor</h4>
+                <p>"The environment encourages creativity and critical thinking. Truly inspiring!"</p>
+              </div>
+             </div>
+            </div>
+
+            <!-- Slide 6 -->
+            <div class="carousel-item">
+             <div class="student-card p-4">
+              <div>
+                <img src="./images/male-student-2.jpg" alt="Student Pic" class="img-fluid rounded-circle mb-3">
+                <h4>Ahmed Shah</h4>
+                <p>"Excellent teachers and resources. I feel well-prepared for my career."</p>
+              </div>
+             </div>
+            </div>
+            
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#studentCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#studentCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+  <div class="container mt-5" id="activity">
+    
+    <div class="row align-items-center">
+      
+      <div class="col-lg-8 col-md-12 col-12 justify-content-center mx-auto">
+       <div class="contact p-4 shadow-sm rounded">
+          <h5 class="mb-3">Our Activities & Contact</h5>
+          <h3 class="fw-bold mb-3 display-6">Join Our University Activities</h3>
+          <p style=" line-height: 1.7;">
+            Students participate in various activities including reading, discussions, and collaborative projects. 
+            Get in touch to learn more about how you can be part of our vibrant community.
+          </p>
+          <button class="p-2 rounded-pill px-3">Join Now</button>
+      </div>
+    </div>
+  </div>
+  </div>
+
+  <!-- Teacher Section  -->
+  <section class="teacher-section py-5">
+  <div class="container">
+    <div class="section-title text-center mb-5">
+      <h6 style="color: orangered;">Our Faculty</h6>
+      <h2 class="fw-bold display-4">Meet Our Expert Teachers</h2>
+    </div>
+    <div class="row align-items-start">
+
+      <!-- Female Teachers -->
+      <div class="col-lg-6 col-md-12 col-12">
+        <div class="teacher-card mb-4 d-flex align-items-start p-2" data-aos="flip-left">
+          <img src="./images/techer-1.avif" alt="Teacher Image" class="rounded-circle img-fluid me-3" width="80">
+          <div>
+            <h4>Miss Sarah Khan</h4>
+            <h6>Professor of Computer Science</h6>
+            <p>Expert in AI and software development with 10+ years of teaching experience.</p>
+          </div>
+        </div>
+
+        <div class="teacher-card mb-4 d-flex align-items-start p-2" data-aos="flip-left">
+          <img src="./images/female-teacher-3.jpg" alt="Teacher Image" class="rounded-circle img-fluid me-3" width="80">
+          <div>
+            <h4>Ms. Ayesha Tariq</h4>
+            <h6>Graphic Design Instructor</h6>
+            <p>Passionate about creative design and visual storytelling; mentor for design competitions.</p>
+          </div>
+        </div>
+
+        <div class="teacher-card mb-4 d-flex align-items-start p-2" data-aos="flip-left">
+          <img src="./images/female-teacher-4.jpg" alt="Teacher Image" class="rounded-circle img-fluid me-3" width="80">
+          <div>
+            <h4>Ms. Noor Fatima</h4>
+            <h6>Marketing & SEO Expert</h6>
+            <p>Specializes in digital marketing strategies and SEO optimization for modern businesses.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Male Teachers -->
+      <div class="col-lg-6 col-md-12 col-12">
+        <div class="teacher-card mb-4 d-flex align-items-start p-2" data-aos="flip-left">
+          <img src="./images/male-teacher.avif" alt="Teacher Image" class="rounded-circle img-fluid me-3" width="80">
+          <div>
+            <h4>Mr. Ali Raza</h4>
+            <h6>Business Management Expert</h6>
+            <p>Experienced in entrepreneurship and corporate strategy, guiding students in real-world projects.</p>
+          </div>
+        </div>
+
+        <div class="teacher-card mb-4 d-flex align-items-start p-2" data-aos="flip-left">
+          <img src="./images/male-teacher-3.avif.jpg" alt="Teacher Image" class="rounded-circle img-fluid me-3" width="80">
+          <div>
+            <h4>Dr. Imran Ahmed</h4>
+            <h6>Data Science Specialist</h6>
+            <p>Skilled in data analysis, machine learning, and AI research with industry experience.</p>
+          </div>
+        </div>
+
+        <div class="teacher-card mb-4 d-flex align-items-start p-2" data-aos="flip-left">
+          <img src="./images/male-teacher-3.avif.jpg" alt="Teacher Image" class="rounded-circle img-fluid me-3" width="80">
+          <div>
+            <h4>Mr. Bilal Shah</h4>
+            <h6>Photography & Visual Arts</h6>
+            <p>Professional photographer and visual artist teaching photography techniques and editing skills.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- Get In Touch Section -->
+<section class="get-in-touch py-5" id="contact">
+  <div class="container">
+    <div class="section-title text-center mb-5">
+      <h6 style="color: orangered;">Contact Us</h6>
+      <h2 class="fw-bold display-4">Get In Touch</h2>
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-lg-8 col-md-10">
+        <form action="#" method="POST" class="p-4 shadow rounded bg-light" data-aos="flip-left">
+          <div class="mb-3">
+            <label for="name" class="form-label fw-bold">Full Name</label>
+            <input type="text" class="form-control" id="name" placeholder="Enter your full name" required>
+          </div>
+          <div class="mb-3">
+            <label for="email" class="form-label fw-bold">Email Address</label>
+            <input type="email" class="form-control" id="email" placeholder="Enter your email" required>
+          </div>
+          <div class="mb-3">
+            <label for="subject" class="form-label fw-bold">Subject</label>
+            <input type="text" class="form-control" id="subject" placeholder="Subject" required>
+          </div>
+          <div class="mb-3">
+            <label for="message" class="form-label fw-bold">Message</label>
+            <textarea class="form-control" id="message" rows="5" placeholder="Write your message..." required></textarea>
+          </div>
+          <div class="text-center">
+            <button type="submit" class="btn btn-dark rounded-pill px-4 py-2">Send Message</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Footer Section -->
+<footer class="bg-dark text-white pt-5 pb-4">
+  <div class="container">
+    <div class="row">
+
+      <!-- About -->
+      <div class="col-lg-4 col-md-6 mb-4">
+        <h5 class="fw-bold mb-3">About University</h5>
+        <p>
+          Our university is dedicated to providing high-quality education and fostering innovative, creative, and skilled students ready for the modern world.
+        </p>
+      </div>
+
+      <!-- Quick Links -->
+      <div class="col-lg-2 col-md-6 mb-4">
+        <h5 class="fw-bold mb-3">Quick Links</h5>
+        <ul class="list-unstyled">
+          <li><a href="#home" class="text-white text-decoration-none">Home</a></li>
+          <li><a href="#about" class="text-white text-decoration-none">About</a></li>
+          <li><a href="#courses" class="text-white text-decoration-none">Courses</a></li>
+          <li><a href="#contact" class="text-white text-decoration-none">Contact</a></li>
+        </ul>
+      </div>
+
+      <!-- Contact Info -->
+      <div class="col-lg-3 col-md-6 mb-4">
+        <h5 class="fw-bold mb-3">Contact Info</h5>
+        <p><i class="fa-solid fa-phone me-2"></i>+92 300 1234567</p>
+        <p><i class="fa-solid fa-envelope me-2"></i>info@university.com</p>
+        <p><i class="fa-solid fa-location-dot me-2"></i>123 University Road, City, Pakistan</p>
+      </div>
+
+      <!-- Social Media -->
+      <div class="col-lg-3 col-md-6 mb-4">
+        <h5 class="fw-bold mb-3">Follow Us</h5>
+        <div class="d-flex gap-3">
+          <a href="#" class="text-white fs-4"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" class="text-white fs-4"><i class="fab fa-twitter"></i></a>
+          <a href="#" class="text-white fs-4"><i class="fab fa-instagram"></i></a>
+          <a href="#" class="text-white fs-4"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+      </div>
+
+    </div>
+
+    <hr class="bg-secondary">
+    <div class="text-center mt-3">
+      &copy; 2025 University Name. All Rights Reserved.
+    </div>
+  </div>
+</footer>
+
+
+  <!-- BackTopBtn  -->
+  <i class="fa-solid fa-arrow-up" id="back-top-top"></i>
+
+
+  <script>
+    const BackTopBtn = document.getElementById('back-top-top')
+
+    window.addEventListener('scroll', () => {
+      if (window.scrollY > 300) {
+        BackTopBtn.style.display = 'block';
+      } else {
+        BackTopBtn.style.display = 'none';
+      }
+    });
+
+
+    BackTopBtn.addEventListener('click', function () {
+      window.scrollTo({
+        top: 0,
+        behavior: "smooth"
+      });
+    });
+
+
+  </script>
+
+<!-- Aos Animation  -->
+ <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+<script>
+  AOS.init();
+</script>
+  <!-- Script Bs5 Js  -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+    integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+    crossorigin="anonymous"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+    integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>

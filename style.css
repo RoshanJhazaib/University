@@ -1,0 +1,285 @@
+
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.navbar{
+    background-color: white;
+    padding: 12px 0px;
+    }
+.nav-item .nav-link, .navbar-brand{
+    color: black;
+}
+.navbar .btn{
+    background-color: orangered;
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.navbar .btn:hover{
+    transform: translateY(-3px);
+}
+
+.hero-section{
+    padding: 80px 0px;
+    position: relative;
+}
+
+.hero-section .bg-video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.hero-section .container{
+    position: relative;
+    z-index: 2;
+}
+
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background-color:rgba(0, 0, 0, 0.445);
+    content: "";
+}
+.hero-section .hero-contact{
+    color: white;
+}
+.hero-section form label{
+    color: white;
+}
+
+
+.hero-contact .btn{
+         background-color: orangered;
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    padding: 7px 20px;
+}
+.hero-contact .btn:hover{
+    transform: translateY(-5px);
+}
+
+
+form{
+    background-color: rgba(255, 255, 255, 0.144);
+}
+form .btn{
+     background-color: orangered;
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    padding: 7px 20px;
+}
+
+form .btn:hover{
+ transform: translateY(-5px);
+ color: white;
+}
+ /* Card Style  */
+ .card-section .icon{
+    display: flex;
+    align-items: center;
+    font-size: 35px;
+    }
+
+    .card-section .icon i{
+        color: darkblue;
+    }
+ .card-section{
+    padding: 80px 0px;
+ }
+ .card-section .category-card{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    height: 100%;
+    transition: all 0.3s ease;
+    cursor: pointer;
+ }
+ .card-section .section-title h6{
+    color: orangered;
+ }
+ .card-section .section-title {
+    color: rgb(4, 4, 46);
+    text-align: center;
+ }
+ 
+ .card-section .category-card:hover {
+    transform: translateY(-5px);
+    background-color: orangered;
+    color: white;
+ }
+
+ #back-top-top{
+    background-color: rgb(4, 4, 46);
+    color: white;
+padding: 14px;
+border-radius: 3px;
+position: fixed;
+right: 20px;
+bottom: 20px;
+display: none;
+transition: all 0.3s ease;
+cursor: pointer;
+ }
+
+ #back-top-top:hover{
+    background-color: yellow;
+    color: rgb(4, 4, 46);
+    transform: translateY(-10px);
+ }
+
+ /* About Style  */
+ .about{
+    background-color: aliceblue;
+ }
+
+ .about .about-image img{
+   width: 300px;
+   transition: all 0.3s ease;
+   cursor: pointer;
+   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+   animation: float 6s ease-in-out infinite;
+ }
+
+ @keyframes float {
+    0%{
+        transform: translateY(0px);
+    }
+    50%{
+        transform: translateY(-20px);
+    }
+    100%{
+      transform: translateY(0px);
+    }
+ }
+
+ .about .about-image img:hover{
+    transform: translateY(-5px);
+ }
+ .about-contact h2{
+    color: rgb(4, 4, 46);
+}
+.about-contact .progress-bar{
+    background-color: darkblue;
+}
+
+.about .btn button{
+background-color: darkblue;
+color: white;
+border: none;
+transition: all 0.3s ease;
+}
+
+.about .btn button:hover{
+ transform: translateY(-5px);
+}
+.progress{
+    height: 25px;
+}
+
+
+
+/* Courses Style  */
+.courses-section .section-title h2{
+     color: rgb(4, 4, 46);
+}
+
+
+.courses-section .course-card{
+    height: 100%;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.courses-section .course-card:hover{
+    transform: translateY(-10px);
+}
+
+/* Students Style  */
+.students-section{
+    background-color: aliceblue;
+}
+
+.students-section .student-card{
+    background-color: white;
+}
+.students-section .student-card img{
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+}
+
+/* Activity Style  */
+#activity {
+    background: url(./images/activity-background-image.jpg) no-repeat center center/cover;
+    position: relative;
+    /* padding: 80px 0px; */
+    overflow: hidden;
+}
+
+
+#activity::before{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.664);
+    content: "";
+}
+
+#activity .row > div {
+    position: relative;
+    z-index: 2; 
+}
+#activity .contact{
+    color: white;
+    text-align: center;
+    
+}
+
+#activity .contact h3{
+   color: white;
+}
+#activity button{
+     background-color: orangered;
+    color: white;
+    border: none;
+}
+
+/* Teacher Style  */
+
+.teacher-section {
+    padding: 80px 0px;
+    overflow: hidden;
+}
+.teacher-section .teacher-card img{
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.teacher-section  .teacher-card {
+box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+border-left: 4px solid orangered;
+cursor: pointer;
+transition: all 0.3s ease;
+}
+
+.teacher-section  .teacher-card:hover{
+    transform: translateY(-10px);
+}
